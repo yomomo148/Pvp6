@@ -20,8 +20,8 @@ local Mouse = LocalPlayer:GetMouse()
 local Window = WindUI:CreateWindow({
     Title = "Yomo HUB 🧑‍💻 | v2  | ",
     Icon = "menu",
-    Author = "https://discord.gg/xWW3jhKM",
-    Folder = "KungHubkFolder",
+    Author = "yomo!",
+    Folder = "yomo hubFolder",
     Size = UDim2.fromOffset(400, 200),
     Theme = "Dark",
     Transparent = true,
@@ -29,7 +29,7 @@ local Window = WindUI:CreateWindow({
 })
 
 local button = Window:EditOpenButton({
-    Title = "Open Menu",
+    Title = "yomo hub",
     Icon = "apple",
     CornerRadius = UDim.new(0,50),
     StrokeThickness = 2,
